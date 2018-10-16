@@ -1,0 +1,15 @@
+{
+  "name": "typescript-test-workspace",
+  "version": "0.1.0",
+  "license": "private",
+  "main": "no/way",
+
+  "private": true,
+
+  "scripts": {
+    "build-gulp": "cd ./node_modules/typescript-test && npm run build-gulp",
+    "build-tsc": "cd ./node_modules/typescript-test && npm run build-tsc"
+  },
+
+  "workspaces": ["packages/*"]
+}
